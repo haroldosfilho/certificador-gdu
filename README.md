@@ -16,7 +16,6 @@ zero (Gram-SVD, rigidez, corpos de coordenadas, numero de Laman).
 | `certificador_gdu_completo.py` | Python (numpy, scipy) | Certificador completo: reducao por continuidade + modulo Gram-SVD; certifica fidelidade e rigidez (ex.: Exoo-Ismailescu 19, HoG 51376). |
 | `ei19_field.cpp` | C++ (CoCoALib/GMP) | Corpo de coordenadas do EI19: monta o ideal de distancia unitaria, calcula o polinomio minimo de um elemento primitivo e o fatora (regua-compasso vs. origami). Tambem devolve o numero de Laman (dimensao do quociente). |
 | `check_dist_one_origami.py` | Python (sympy) | Verificacao simbolica exata das distancias unitarias do heptagono no corpo cubico Q(cos 2pi/7) (dobra de Beloch O6). |
-| `certificado_khp.py` | Python (stdlib) | Certificado de representacao degenerada (Kratochvil-Horvat-Pisanski): quociente por coloracao propria e teste de homomorfismo. |
 | `ei17_galois_v2.py` | Python (PARI/GP) | Analise de Galois do EI17: gerador canonico monico (polredbest) e tipos de ciclo de Frobenius (grau 20, grupo S20, nao-soluvel). |
 | `rigidez/verificacao_rigidez_EI17.py` | Python (numpy) | Matriz de rigidez e posto/auto-tensoes do EI17 (coordenadas certificadas). |
 | `rigidez/verificacao_rigidez_EI19.py` | Python (numpy) | Idem para o EI19 (coordenadas exatas em Q(raiz2,raiz5,raiz7,raiz14,raiz70)). |
