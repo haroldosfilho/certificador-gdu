@@ -1,0 +1,4 @@
+numpy
+scipy
+sympy
+cypari2   # apenas para ei17_galois_v2.py (PARI/GP)
